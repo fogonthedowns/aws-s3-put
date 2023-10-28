@@ -1,0 +1,3 @@
+sudo chown -R pi:pi /home/pi/images/
+chmod 755 /home/pi/log/
+* * * * * /home/pi/go/src/aws-s3-put/aws-s3-put >> /home/pi/log/ratcam.log 2>&1
